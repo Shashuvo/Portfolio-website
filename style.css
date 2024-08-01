@@ -10,10 +10,11 @@ body {
     margin: 20px 80px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
+
 /* -->Navbar<-- */
 
 .navbar {
@@ -161,15 +162,16 @@ span {
     padding-right: 20px;
 }
 
-.banner-image{
+.banner-image {
     height: 550px;
-    width:600px;
+    width: 600px;
     margin-top: 160px;
     border: 8px solid transparent;
     border-radius: 100%;
     background: linear-gradient(#000000, #000000) padding-box,
-                linear-gradient(to top, #FF8233, rgba(255, 255, 255, 0)) border-box;
+        linear-gradient(to top, #FF8233, rgba(255, 255, 255, 0)) border-box;
 }
+
 .banner-image img {
     height: 700px;
     width: 500px;
@@ -275,26 +277,31 @@ span {
     line-height: 28px;
     text-align: left;
 }
-.experience-years-section{
+
+.experience-years-section {
     margin-top: 40px;
 }
-.years-name{
+
+.years-name {
     display: flex;
     justify-content: space-between;
     gap: 500px;
     align-items: center;
 }
-#years{
+
+#years {
     font-size: 16px;
     font-style: italic;
     text-align: left;
 }
-#name{
+
+#name {
     font-weight: 200px;
     font-size: 14px;
     text-align: right;
 }
-.content{
+
+.content {
     font-weight: 700;
     font-size: 18px;
     margin-top: -25px;
@@ -303,38 +310,45 @@ span {
 
 /* -->award section<-- */
 
-.award-title{
+.award-title {
     text-align: center;
     margin-top: 150px;
 }
-.award-title h1{
+
+.award-title h1 {
     font-size: 40px;
 }
-.award-title p{
+
+.award-title p {
     opacity: 50%;
     font-size: 20px;
 }
-.awards{
+
+.awards {
     background-color: black;
     margin-top: 40px;
 }
-.name-design{
+
+.name-design {
     justify-content: space-between;
     display: flex;
     align-items: center;
 }
-#award-name{
+
+#award-name {
     font-size: 25px;
     padding-top: 40px;
     padding-left: 60px;
 }
-#design{
+
+#design {
     padding-top: 40px;
     font-size: 18px;
     padding-right: 60px;
     font-weight: 700;
 }
-.award-desc{
+
+.award-desc {
     padding-left: 60px;
     opacity: 50%;
     font-size: 18px;
@@ -344,26 +358,30 @@ span {
 
 /* -->my portfolio<-- */
 
-.portfolio-title{
+.portfolio-title {
     text-align: center;
     margin-top: 150px;
 }
-.portfolio-title h1{
+
+.portfolio-title h1 {
     font-size: 40px;
 }
-.portfolio-title p{
+
+.portfolio-title p {
     opacity: 50%;
     font-size: 20px;
 }
-.portfolio-skills button{
-    background-color:black;
+
+.portfolio-skills button {
+    background-color: black;
     color: white;
     border: none;
     padding: 10px 20px;
     font-size: 30px;
     font-family: Rubik;
 }
-.Web-Design button{
+
+.Web-Design button {
     background-color: #FD6F00;
     color: white;
     border: none;
@@ -371,7 +389,8 @@ span {
     font-size: 30px;
     font-family: Rubik;
 }
-.portfolio-skills{
+
+.portfolio-skills {
     justify-content: center;
     display: flex;
     gap: 40px;
@@ -379,102 +398,122 @@ span {
 }
 
 /* --.project-section<-- */
-.project1{
+.project1 {
     margin-top: 60px;
     display: flex;
 }
-.project1 img{
+
+.project1 img {
     height: 400px;
-    width:600px;
+    width: 600px;
 }
-.project-details{
-    padding:20px 0px 20px 80px;
+
+.project-details {
+    padding: 20px 0px 20px 80px;
     width: 100%;
 }
-#title{
+
+#title {
     font-size: 20px;
     font-style: italic;
     padding-bottom: 20px;
 }
-.project-details h1{
+
+.project-details h1 {
     font-size: 40px;
 }
-.project-details p{
+
+.project-details p {
     font-size: 20px;
     opacity: 50%;
 }
-.project2{
+
+.project2 {
     margin-top: 60px;
     display: flex;
 }
-.project2 img{
+
+.project2 img {
     height: 400px;
-    width:600px;
+    width: 600px;
 }
-.project2 .project-details{
-    padding:20px 80px 20px 0px;
+
+.project2 .project-details {
+    padding: 20px 80px 20px 0px;
     width: 100%;
 }
 
 /* ---->my contact<----- */
 
-.contact-title{
-        text-align: center;
-        margin-top: 150px;
+.contact-title {
+    text-align: center;
+    margin-top: 150px;
 }
 
-.contact-title h3{
+.contact-title h3 {
     font-style: italic;
 }
-.contact-title h1{
+
+.contact-title h1 {
     font-size: 40px;
 }
 
-.contact-box{
+.contact-box {
     height: 550px;
     padding: 70px 100px 10px 100px;
     margin-top: 60px;
     background: #FD6F001A;
 }
 
-.contact-box h1{
+.contact-box h1 {
     font-size: 40px;
 }
-.contact-field{
+
+.contact-field {
     justify-content: space-between;
     display: flex;
 }
-.contact-name input, .contact-email input{
+
+.contact-name input,
+.contact-email input {
     width: 600px;
     padding-bottom: 5px;
 }
-.contact-message{
+
+.contact-message {
     padding-top: 40px;
 }
-.contact-message input{
+
+.contact-message input {
     width: 100%;
     padding-bottom: 40px;
 }
-.contact-name input, .contact-email input, .contact-message input{
+
+.contact-name input,
+.contact-email input,
+.contact-message input {
     border: none;
     color: #ffffff;
     background: transparent;
     outline: none;
     border-bottom: 1px solid;
 }
-.contact-field p{
+
+.contact-field p {
     font-size: 20px;
 }
-.contact-message p{
+
+.contact-message p {
     font-size: 20px;
 }
-.contact-attach{
+
+.contact-attach {
     display: flex;
     padding: 5px 0px 20px 0px;
     align-items: center;
 }
 
-.contact-submit button{
+.contact-submit button {
     width: 180px;
     height: 50px;
     text-align: center;
@@ -485,18 +524,20 @@ span {
     background-color: #FD6F00;
     margin-top: 20px;
 }
-.contact-attach svg{
+
+.contact-attach svg {
     padding: 0px;
 }
 
 /* -->footer-section<-- */
 
-.footer-section{
+.footer-section {
     background-color: black;
     height: 550px;
-    width:100%;
+    width: 100%;
 }
-.footer-section h1{
+
+.footer-section h1 {
     color: #FD6F00;
     font-family: poppins;
     font-weight: 700;
@@ -504,7 +545,8 @@ span {
     padding-top: 100px;
     font-size: 64px;
 }
-.panel-section{
+
+.panel-section {
     text-align: center;
     display: flex;
     gap: 40px;
@@ -514,19 +556,22 @@ span {
     margin-top: -25px;
     font-family: poppins;
 }
-.social-icons-panel{
+
+.social-icons-panel {
     justify-content: center;
     text-align: center;
     padding-top: 80px;
 }
-.reserve-section{
+
+.reserve-section {
     text-align: center;
     margin-top: 90px;
     padding: 10px;
-    background-color:#121212;
+    background-color: #121212;
     font-size: 25px;
     font-family: poppins;
 }
-.reserve-section span{
+
+.reserve-section span {
     font-weight: 700;
 }
